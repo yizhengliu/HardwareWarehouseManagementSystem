@@ -16,7 +16,7 @@ namespace HardwareWarehouseManagementSystem
         {
             return UnderLine($"{"Id",-6}{"Name",-15}{"Type",-20}{"Quantity",10}{"Value",10}");
         }
-
+        //
         private static string RealTimeUpdateHeading()
         {
             return UnderLine("Real-time Update");
